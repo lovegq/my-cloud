@@ -1,0 +1,54 @@
+<!-- 添加弹窗 -->
+<th:block th:fragment="add">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"
+					aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">添加</h4>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" role="form" method="post" id="addForm"
+					th:action="@{/role/insert}">
+					<div class="form-group">
+						<label for="roleName" class="col-sm-2 control-label">名称:</label>
+						<div class="col-sm-10">
+							<input type="text" name="roleName" class="form-control"
+								placeholder="请输入......" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="roleCode" class="col-sm-2 control-label">角色代码:</label>
+						<div class="col-sm-10">
+							<input type="text" name="roleCode" class="form-control"
+								placeholder="请输入......" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="description" class="col-sm-2 control-label">描述</label>
+						<div class="col-sm-10">
+							<textarea rows="6" cols="50" name="description"
+								class="form-control" placeholder="请输入......"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="functions" class="col-sm-2 control-label">拥有权限:</label>
+						<div class="col-sm-10">
+							<select name="functions" class="form-control" multiple="multiple" size="6">
+								<option th:each="function: ${functionList}" th:value="${function.id}" th:text="${function.functionName}" ></option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group" style='margin: 0px;'>
+						<div class="modal-footer"
+							style='padding: 20px 0px; border-top: 0px'>
+							<button type="submit" class="btn btn-default"
+								data-dismiss="modal">关闭</button>
+							<button type="submit" class="btn btn-primary">提交</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</th:block>

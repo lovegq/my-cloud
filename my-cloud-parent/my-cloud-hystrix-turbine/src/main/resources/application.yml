@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: my-cloud-hystrix-turbine
+eureka:
+  client:
+    eureka-server-port: 9999
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+turbine:
+  app-config: my-cloud-server
+server:
+  context-path: /
+  port: 10002
+logging:
+  level:
+    root: info

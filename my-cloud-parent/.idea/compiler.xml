@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-cloud-config" />
+        <module name="my-cloud-core" />
+        <module name="my-cloud-elasticsearch" />
+        <module name="my-cloud-eureka-server" />
+        <module name="my-cloud-eureka-slave" />
+        <module name="my-cloud-feign" />
+        <module name="my-cloud-hystrix-dashboard" />
+        <module name="my-cloud-hystrix-turbine" />
+        <module name="my-cloud-jpa" />
+        <module name="my-cloud-kafka" />
+        <module name="my-cloud-log" />
+        <module name="my-cloud-mail" />
+        <module name="my-cloud-mongo" />
+        <module name="my-cloud-monitor" />
+        <module name="my-cloud-ribbon" />
+        <module name="my-cloud-server" />
+        <module name="my-cloud-sleuth" />
+        <module name="my-cloud-state-machine" />
+        <module name="my-cloud-swagger" />
+        <module name="my-cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-cloud-config" target="1.8" />
+      <module name="my-cloud-core" target="1.8" />
+      <module name="my-cloud-elasticsearch" target="1.8" />
+      <module name="my-cloud-eureka-server" target="1.8" />
+      <module name="my-cloud-eureka-slave" target="1.8" />
+      <module name="my-cloud-feign" target="1.8" />
+      <module name="my-cloud-hystrix-dashboard" target="1.8" />
+      <module name="my-cloud-hystrix-turbine" target="1.8" />
+      <module name="my-cloud-jpa" target="1.8" />
+      <module name="my-cloud-kafka" target="1.8" />
+      <module name="my-cloud-log" target="1.8" />
+      <module name="my-cloud-mail" target="1.8" />
+      <module name="my-cloud-mongo" target="1.8" />
+      <module name="my-cloud-monitor" target="1.8" />
+      <module name="my-cloud-parent" target="1.8" />
+      <module name="my-cloud-ribbon" target="1.8" />
+      <module name="my-cloud-server" target="1.8" />
+      <module name="my-cloud-sleuth" target="1.8" />
+      <module name="my-cloud-state-machine" target="1.8" />
+      <module name="my-cloud-swagger" target="1.8" />
+      <module name="my-cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

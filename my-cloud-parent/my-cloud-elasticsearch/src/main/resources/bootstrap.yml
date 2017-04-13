@@ -1,0 +1,8 @@
+server:
+  port: 8686
+  context-path: /
+spring:
+  application:
+    name: my_es_server
+logging:
+  config: classpath:log4j2-spring.xml

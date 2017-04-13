@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "datasource.primary.url",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.primary.url'"
+  },
+  {
+    "name": "datasource.primary.username",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.primary.username'"
+  },
+  {
+    "name": "datasource.primary.password",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.primary.password'"
+  },
+  {
+    "name": "datasource.primary.type",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.primary.type'"
+  },
+  {
+    "name": "datasource.primary.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.primary.driver-class-name'"
+  },
+  {
+    "name": "datasource.secondary.url",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.secondary.url'"
+  },
+  {
+    "name": "datasource.secondary.username",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.secondary.username'"
+  },
+  {
+    "name": "datasource.secondary.password",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.secondary.password'"
+  },
+  {
+    "name": "datasource.secondary.type",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.secondary.type'"
+  },
+  {
+    "name": "datasource.secondary.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource.secondary.driver-class-name'"
+  }
+]}

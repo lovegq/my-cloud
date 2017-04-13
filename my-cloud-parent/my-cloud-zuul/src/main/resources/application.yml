@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: my-cloud-zuul
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
+zuul:
+  host:
+    max-total-connections: 1000
+    max-per-route-connections: 100
+  routes:
+    user:
+      path: /api-user/**
+      service-id: my-cloud-feign
+    org:
+      path: /api-org/**
+      service-id: my-cloud-feign
+  ignored-patterns: /login/* ,/index/*
+  ribbon-isolation-strategy: semaphore
+  retryable: true
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+  client:
+    eureka-server-port: 9999
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+server:
+  port: 82

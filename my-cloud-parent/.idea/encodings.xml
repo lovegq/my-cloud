@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-eureka-slave" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-state-machine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-cloud-zuul" charset="UTF-8" />
+  </component>
+</project>

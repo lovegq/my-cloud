@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhb.cloud.mybatis.sys.mapper.RolePrivilegeMapper">
+	<resultMap id="BaseResultMap" type="com.zhb.cloud.mybatis.sys.model.RolePrivilege">
+		<id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="operate_time" property="operateTime" jdbcType="TIMESTAMP" />
+		<result column="privilege_id" property="privilegeId" jdbcType="VARCHAR" />
+		<result column="role_id" property="roleId" jdbcType="VARCHAR" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, operate_time, privilege_id, role_id
+	</sql>
+</mapper>

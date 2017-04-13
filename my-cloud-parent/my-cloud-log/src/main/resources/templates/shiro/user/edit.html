@@ -1,0 +1,63 @@
+<th:block th:fragment="edit">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"
+					aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">编辑</h4>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" role="form" id="editForm"
+					method="post" th:action="@{/user/edit}">
+					<input type="hidden" name="id" value="" id="userId" />
+					<div class="form-group">
+						<label for="userName" class="col-sm-2 control-label">用户名:</label>
+						<div class="col-sm-10">
+							<input type="text" name="userName" class="form-control"
+								disabled="disabled" id="userName" placeholder="请输入用户名" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="realName" class="col-sm-2 control-label">姓名:</label>
+						<div class="col-sm-10">
+							<input type="text" name="realName" class="form-control"
+								disabled="disabled" value="" id="realName" placeholder="请输入姓名" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phone" class="col-sm-2 control-label">手机号:</label>
+						<div class="col-sm-10">
+							<input type="text" value="" name="phone" class="form-control"
+								id="phone" placeholder="请输入手机号" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">邮箱</label>
+						<div class="col-sm-10">
+							<input type="text" name="email" value="" class="form-control"
+								id="email" placeholder="请输入邮箱" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="roles" class="col-sm-2 control-label">描述</label>
+						<div class="col-sm-10">
+							<select name="roles" class="form-control" multiple="multiple"
+								size="6">
+								<option th:each="role: ${roleList}" th:value="${role.id}"
+									th:text="${role.roleName}"></option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group" style='margin: 0px;'>
+						<div class="modal-footer"
+							style='padding: 20px 0px; border-top: 0px'>
+							<button type="submit" class="btn btn-default"
+								data-dismiss="modal">关闭</button>
+							<button type="submit" class="btn btn-primary">提交</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</th:block>

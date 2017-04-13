@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-cloud-ribbon:war">
+    <output-path>$PROJECT_DIR$/my-cloud-ribbon/target</output-path>
+    <root id="archive" name="my-cloud-ribbon-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="my-cloud-ribbon:war exploded" />
+    </root>
+  </artifact>
+</component>

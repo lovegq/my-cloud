@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-cloud-elasticsearch:war">
+    <output-path>$PROJECT_DIR$/my-cloud-elasticsearch/target</output-path>
+    <root id="archive" name="my-cloud-elasticsearch-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="my-cloud-elasticsearch:war exploded" />
+    </root>
+  </artifact>
+</component>

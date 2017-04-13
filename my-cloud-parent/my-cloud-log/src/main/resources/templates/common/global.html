@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<th:block th:fragment="common_css_js">
+	<!-- css 区域 id="bs-css"-->
+	<link th:href="@{/resources/css/bootstrap-cerulean.min.css}"
+		rel="stylesheet" />
+	<link th:href="@{/resources/css/charisma-app.css}" rel="stylesheet" />
+	<link th:href='@{/resources/css/jquery.noty.css}' rel='stylesheet' />
+	<link th:href='@{/resources/css/noty_theme_default.css}'
+		rel='stylesheet' />
+	<link th:href='@{/resources/css/elfinder.min.css}' rel='stylesheet' />
+	<link th:href='@{/resources/css/elfinder.theme.css}' rel='stylesheet' />
+	<link th:href='@{/resources/css/jquery.iphone.toggle.css}'
+		rel='stylesheet' />
+	<link th:href='@{/resources/css/uploadify.css}' rel='stylesheet' />
+	<link th:href='@{/resources/css/animate.min.css}' rel='stylesheet' />
+	<link
+		th:href='@{/resources/bower_components/fullcalendar/fullcalendar.css}'
+		rel='stylesheet' />
+	<link
+		th:href='@{/resources/bower_components/fullcalendar/fullcalendar.print.css}'
+		rel='stylesheet' media='print' />
+	<link th:href='@{/resources/bower_components/chosen/chosen.min.css}'
+		rel='stylesheet' />
+	<link th:href='@{/resources/bower_components/colorbox/colorbox.css}'
+		rel='stylesheet' />
+	<link
+		th:href='@{/resources/bower_components/responsive-tables/responsive-tables.css}'
+		rel='stylesheet' />
+	<link
+		th:href='@{/resources/bower_components/bootstrap-tour/css/bootstrap-tour.min.css}'
+		rel='stylesheet' />
+	<!-- javaScript区域 -->
+	<script th:src="@{/resources/jquery/jquery-1.11.2.min.js}"></script>
+	<!-- bootstrap js -->
+	<script th:src="@{/resources/bootstrap/js/bootstrap.min.js}"></script>
+	<!-- calender 日历插件 -->
+	<script
+		th:src='@{/resources/bower_components/moment/min/moment.min.js}'></script>
+	<script
+		th:src='@{/resources/bower_components/fullcalendar/fullcalendar.min.js}'></script>
+	<!--图片查看器 -->
+	<script
+		th:src="@{/resources/bower_components/chosen/chosen.jquery.min.js}"></script>
+	<script
+		th:src="@{/resources/bower_components/colorbox/jquery.colorbox-min.js}"></script>
+	<!-- 数据表格响应 -->
+	<script
+		th:src="@{/resources/bower_components/responsive-tables/responsive-tables.js}"></script>
+	<script
+		th:src="@{/resources/bower_components/bootstrap-tour/js/bootstrap-tour.min.js}"></script>
+	<!-- 数据表格插件 -->
+	<script
+		th:src='@{/resources/bower_components/datatables/jquery.dataTables.min.js}'></script>
+	<!-- cookie 管理 -->
+	<script th:src="@{/resources/js/jquery.cookie.js}"></script>
+	<!-- Charisma页面布局 -->
+	<script th:src="@{/resources/js/charisma.js}"></script>
+	<!-- 通知插件 -->
+	<script th:src="@{/resources/js/jquery.noty.js}"></script>
+	<script th:src="@{/resources/js/jquery.raty.min.js}"></script>
+	<!-- for iOS style toggle switch -->
+	<script th:src="@{/resources/js/jquery.iphone.toggle.js}"></script>
+	<!--  textarea 插件 -->
+	<script th:src="@{/resources/js/jquery.autogrow-textarea.js}"></script>
+	<!-- 多文件上传插件 -->
+	<script th:src="@{/resources/js/jquery.uploadify-3.1.min.js}"></script>
+	<!-- history.js change on ajax -->
+	<script th:src="@{/resources/js/jquery.history.js}"></script>
+</th:block>
+<script th:fragment="global_js" th:inline="javascript"
+	type="text/javascript">
+	var Globals = window.Globals || {};
+	Globals.ctx = /*[[${#httpServletRequest.getContextPath() + '/'}]]*/"/";
+</script>
+</head>
+<body>
+</body>
+</html>

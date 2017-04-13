@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-cloud-swagger:war">
+    <output-path>$PROJECT_DIR$/my-cloud-swagger/target</output-path>
+    <root id="archive" name="my-cloud-swagger-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="my-cloud-swagger:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,15 @@
+用于整个项目的监控
+服务端配置:
+<dependency>
+	<groupId>de.codecentric</groupId>
+	<artifactId>spring-boot-admin-server</artifactId>
+	<version>1.4.5</version>
+</dependency>
+需要被监控的客户端配置:
+<dependency>
+    <groupId>de.codecentric</groupId>
+    <artifactId>spring-boot-admin-starter-client</artifactId>
+    <version>1.4.5</version>
+</dependency>
+客户端需要指定服务端的地址:
+spring.boot.admin.url=http://localhost:8080

@@ -1,0 +1,22 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: my-cloud-monitor
+  boot:
+    admin:
+      url:
+      - http://localhost:${server.port}
+  mail:
+    host: zhb1316783262@163.com
+  jackson:
+    serialization:
+      indent-output: false
+eureka:
+  client:
+    eureka-server-port: 9999
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+endpoints:
+  health:
+    sensitive: true

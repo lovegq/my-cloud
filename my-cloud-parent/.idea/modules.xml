@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-config/my-cloud-config.iml" filepath="$PROJECT_DIR$/my-cloud-config/my-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-config/my-cloud-config.iml" filepath="$PROJECT_DIR$/my-cloud-config/my-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-core/my-cloud-core.iml" filepath="$PROJECT_DIR$/my-cloud-core/my-cloud-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-elasticsearch/my-cloud-elasticsearch.iml" filepath="$PROJECT_DIR$/my-cloud-elasticsearch/my-cloud-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-elasticsearch/my-cloud-elasticsearch.iml" filepath="$PROJECT_DIR$/my-cloud-elasticsearch/my-cloud-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-eureka-server/my-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/my-cloud-eureka-server/my-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-eureka-server/my-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/my-cloud-eureka-server/my-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-eureka-slave/my-cloud-eureka-slave.iml" filepath="$PROJECT_DIR$/my-cloud-eureka-slave/my-cloud-eureka-slave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-eureka-slave/my-cloud-eureka-slave.iml" filepath="$PROJECT_DIR$/my-cloud-eureka-slave/my-cloud-eureka-slave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-feign/my-cloud-feign.iml" filepath="$PROJECT_DIR$/my-cloud-feign/my-cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-feign/my-cloud-feign.iml" filepath="$PROJECT_DIR$/my-cloud-feign/my-cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-hystrix-dashboard/my-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/my-cloud-hystrix-dashboard/my-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-hystrix-dashboard/my-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/my-cloud-hystrix-dashboard/my-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-hystrix-turbine/my-cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/my-cloud-hystrix-turbine/my-cloud-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-hystrix-turbine/my-cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/my-cloud-hystrix-turbine/my-cloud-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-jpa/my-cloud-jpa.iml" filepath="$PROJECT_DIR$/my-cloud-jpa/my-cloud-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-jpa/my-cloud-jpa.iml" filepath="$PROJECT_DIR$/my-cloud-jpa/my-cloud-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-kafka/my-cloud-kafka.iml" filepath="$PROJECT_DIR$/my-cloud-kafka/my-cloud-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-kafka/my-cloud-kafka.iml" filepath="$PROJECT_DIR$/my-cloud-kafka/my-cloud-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-log/my-cloud-log.iml" filepath="$PROJECT_DIR$/my-cloud-log/my-cloud-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-log/my-cloud-log.iml" filepath="$PROJECT_DIR$/my-cloud-log/my-cloud-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-mail/my-cloud-mail.iml" filepath="$PROJECT_DIR$/my-cloud-mail/my-cloud-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-mail/my-cloud-mail.iml" filepath="$PROJECT_DIR$/my-cloud-mail/my-cloud-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-mongo/my-cloud-mongo.iml" filepath="$PROJECT_DIR$/my-cloud-mongo/my-cloud-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-mongo/my-cloud-mongo.iml" filepath="$PROJECT_DIR$/my-cloud-mongo/my-cloud-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-monitor/my-cloud-monitor.iml" filepath="$PROJECT_DIR$/my-cloud-monitor/my-cloud-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-monitor/my-cloud-monitor.iml" filepath="$PROJECT_DIR$/my-cloud-monitor/my-cloud-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-parent.iml" filepath="$PROJECT_DIR$/my-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-ribbon/my-cloud-ribbon.iml" filepath="$PROJECT_DIR$/my-cloud-ribbon/my-cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-ribbon/my-cloud-ribbon.iml" filepath="$PROJECT_DIR$/my-cloud-ribbon/my-cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-server/my-cloud-server.iml" filepath="$PROJECT_DIR$/my-cloud-server/my-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-server/my-cloud-server.iml" filepath="$PROJECT_DIR$/my-cloud-server/my-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-sleuth/my-cloud-sleuth.iml" filepath="$PROJECT_DIR$/my-cloud-sleuth/my-cloud-sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-sleuth/my-cloud-sleuth.iml" filepath="$PROJECT_DIR$/my-cloud-sleuth/my-cloud-sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-state-machine/my-cloud-state-machine.iml" filepath="$PROJECT_DIR$/my-cloud-state-machine/my-cloud-state-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-state-machine/my-cloud-state-machine.iml" filepath="$PROJECT_DIR$/my-cloud-state-machine/my-cloud-state-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-swagger/my-cloud-swagger.iml" filepath="$PROJECT_DIR$/my-cloud-swagger/my-cloud-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-swagger/my-cloud-swagger.iml" filepath="$PROJECT_DIR$/my-cloud-swagger/my-cloud-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-zuul/my-cloud-zuul.iml" filepath="$PROJECT_DIR$/my-cloud-zuul/my-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cloud-zuul/my-cloud-zuul.iml" filepath="$PROJECT_DIR$/my-cloud-zuul/my-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>

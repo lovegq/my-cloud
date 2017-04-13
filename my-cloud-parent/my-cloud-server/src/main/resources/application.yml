@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: zhb
+    password: hadoop1124
+    virtual-host: zhb
+    addresses: localhost:5672
+    listener:
+      acknowledge-mode: auto

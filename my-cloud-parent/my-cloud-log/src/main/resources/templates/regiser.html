@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>智诚万家</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description"
+	content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template." />
+<meta name="author" content="Muhammad Usman" />
+</head>
+<style>
+body {
+	font-family: '微软雅黑';
+}
+
+form {
+	overflow: hidden;
+}
+
+.panel {
+	width: 1000px;
+	margin: 20px auto 20px;
+}
+
+.form-group {
+	float: left;
+	margin-right: 20px;
+}
+
+.form-group label, fieldset label {
+	float: left;
+	line-height: 38px;
+	width: 114px;
+	text-align: right;
+}
+
+.form-control {
+	width: 188px;
+}
+
+.form-group .input-prepend {
+	width: 180px;
+}
+
+.form-group strong {
+	line-height: 34px;
+	display: block;
+	float: left;
+}
+
+.form-group .upLoad {
+	margin-top: 8px;
+	width: 188px;
+}
+
+.form2 {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.form2 .form-group {
+	margin-right: 48px;
+}
+
+.form2 .form-group label, .form2 fieldset label {
+	text-align: left
+}
+
+.funBtn {
+	width: 1000px;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+</style>
+<body>
+	<!-- 基本资料 -->
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">基本资料</h3>
+		</div>
+		<div class="panel-body">
+			<form role="form">
+				<div class="form-group">
+					<label for="name">名称：</label> <input type="text"
+						class="form-control" placeholder="请输入公司名称">
+				</div>
+				<div class="form-group">
+					<label for="name">省：</label> <select class="form-control">
+						<option>北京市</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="name">市：</label> <select class="form-control">
+						<option>北京市</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="name">区县：</label> <select class="form-control">
+						<option>海淀区</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="name">详细地址：</label> <input type="text"
+						class="form-control" placeholder="请输入公司地址">
+				</div>
+				<div class="form-group">
+					<label for="name">公司电话：</label> <input type="text"
+						class="form-control" placeholder="请输入公司电话">
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- 工商注册资料 -->
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">工商注册资料</h3>
+		</div>
+		<div class="panel-body">
+			<form role="form" class='form2'>
+				<div class="form-group">
+					<label for="name">注册资金：</label> <input type="text"
+						class="form-control" placeholder="请输入注册资金">
+				</div>
+				<div class="form-group">
+					<label for="name">法人代表：</label> <input type="text"
+						class="form-control" placeholder="请输入公司法人代表">
+				</div>
+				<div class="form-group">
+					<label for="name">联系人：</label> <input type="text"
+						class="form-control" placeholder="请输入联系人">
+				</div>
+				<div class="form-group">
+					<label for="name">联系人电话：</label> <input type="text"
+						class="form-control" placeholder="请输入联系人电话">
+				</div>
+				<div class="form-group">
+					<label for="name">邮箱：</label> <input type="text"
+						class="form-control" placeholder="请输入联系人邮箱">
+				</div>
+				<div class="form-group">
+					<label for="name">员工数：</label> <input type="text"
+						class="form-control" placeholder="请输入员工数">
+				</div>
+				<div class="form-group">
+					<label for="inputfile">公司logo：</label> <input type="file"
+						class='upLoad'>
+				</div>
+				<div class="form-group">
+					<label for="inputfile">图片：</label> <input type="file"
+						class='upLoad'>
+				</div>
+				<div class="form-group">
+					<label for="name">执照编号：</label> <input type="text"
+						class="form-control" placeholder="请输入执照编号">
+				</div>
+				<div class="form-group">
+					<label for="name">执照地址：</label> <input type="text"
+						class="form-control" placeholder="请输入执照地址">
+				</div>
+				<div class="form-group">
+					<label>执照有效期开始：</label>
+					<div class="input-prepend input-group">
+						<span class="add-on input-group-addon"> <i
+							class="glyphicon glyphicon-calendar fa fa-calendar"> </i>
+						</span> <input type="text" style="width: 150px" name="birthday"
+							id="birthday1" class="form-control" value="01/18/2016" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label>执照有效期结束：</label>
+					<div class="input-prepend input-group">
+						<span class="add-on input-group-addon"> <i
+							class="glyphicon glyphicon-calendar fa fa-calendar"> </i>
+						</span> <input type="text" style="width: 150px" name="birthday"
+							id="birthday2" class="form-control" value="01/18/2016" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputfile">执照电子版：</label> <input type="file"
+						class='upLoad'>
+				</div>
+				<div class="form-group">
+					<label for="name">成立日期：</label> <input type="text"
+						class="form-control" placeholder="请输入成立日期">
+				</div>
+				<div class="form-group">
+					<label for="name">公司介绍：</label> <input type="text"
+						class="form-control" placeholder="请输入公司介绍">
+				</div>
+				<div class="form-group">
+					<label for="name">经营范围：</label> <input type="text"
+						class="form-control" placeholder="请输入经营范围">
+				</div>
+				<div class="form-group">
+					<label for="name" style='width: 142px;'>营业执照内企业名称：</label> <input
+						type="text" class="form-control" placeholder="请输入营业执照内企业名称">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="funBtn">
+		<button type="button" class="btn btn-default">清空</button>
+		<button type="button" class="btn btn-primary">提交</button>
+	</div>
+
+	<!-- external javascript -->
+
+
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- library for cookie management -->
+
+	<script src="js/jquery.cookie.js"></script>
+	<!-- calender plugin -->
+	<script src='bower_components/moment/min/moment.min.js'></script>
+	<script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
+	<!-- data table plugin -->
+	<script src='js/jquery.dataTables.min.js'></script>
+
+	<!-- select or dropdown enhancer -->
+	<script src="bower_components/chosen/chosen.jquery.min.js"></script>
+	<!-- plugin for gallery image view -->
+	<script src="bower_components/colorbox/jquery.colorbox-min.js"></script>
+	<!-- notification plugin -->
+	<script src="js/jquery.noty.js"></script>
+	<!-- library for making tables responsive -->
+	<script src="bower_components/responsive-tables/responsive-tables.js"></script>
+	<!-- tour plugin -->
+	<script
+		src="bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js"></script>
+	<!-- star rating plugin -->
+	<script src="js/jquery.raty.min.js"></script>
+	<!-- for iOS style toggle switch -->
+	<script src="js/jquery.iphone.toggle.js"></script>
+	<!-- autogrowing textarea plugin -->
+	<script src="js/jquery.autogrow-textarea.js"></script>
+	<!-- multiple file upload plugin -->
+	<script src="js/jquery.uploadify-3.1.min.js"></script>
+	<!-- history.js for cross-browser state change on ajax -->
+	<script src="js/jquery.history.js"></script>
+	<!-- application script for Charisma demo -->
+	<script src="js/charisma.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#birthday1').daterangepicker({
+			singleDatePicker : true
+		}, function(start, end, label) {
+			console.log(start.toISOString(), end.toISOString(), label);
+		});
+		$('#birthday2').daterangepicker({
+			singleDatePicker : true
+		}, function(start, end, label) {
+			console.log(start.toISOString(), end.toISOString(), label);
+		});
+	});
+</script>
