@@ -5,26 +5,19 @@ spring:
     sampler:
       percentage: 0.1
   datasource:
-    url: jdbc:mysql://localhost:3306/sleuth
+    url: jdbc:mysql://39.105.10.215:3306/activiti
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     continueOnError: true
   rabbitmq:
-    host: localhost
+    host: 39.105.10.215
     port: 5672
-    username: zhb
-    password: hadoop1124
+    username: rabbitmq
+    password: zhbrabbitmq
     virtual-host: zhb
-    addresses: localhost:5672
-    listener:
-      acknowledge-mode: auto
-eureka:
-  client:
-    eureka-server-port: 9999
-    service-url:
-      defaultZone: http://localhost:9999/eureka/
+    addresses: 39.105.10.215:5672
 zipkin:
   storage:
     type: mysql

@@ -15,10 +15,10 @@
 	</parent>
 	<dependencies>
 		<!-- 服务发现 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- sleuth 服务请求响应监听,贯穿整个服务 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
